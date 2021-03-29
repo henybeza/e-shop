@@ -39,7 +39,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function Items() {
+export default function Item() {
   const classes = useStyles();
   const [expanded, setExpanded] = React.useState(false);
 

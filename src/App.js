@@ -1,8 +1,7 @@
 import React, {  useState } from 'react';
-import { Button } from '@material-ui/core';
- 
 import Header from './Components/Header';
-import Items from './Components/Items';
+import Body from './Components/Body';
+import { Button } from '@material-ui/core';
 import './App.css';
 function App() {
   const [counter, setCounter] = useState(0);
@@ -11,16 +10,10 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <div style={itemStyle}>
-      <Items />
-      <Items />
-      <Items />
-      <Items />
-      </div>
-      
+      <Body />    
       <MyButton handleClick= {increamentCounter} name="Add to Cart" />
       <Display myCounter={counter}/>
-      <YourButton name="ORDER NOW"/>
+      <YourButton name="This is my personal E-Shop project and I am working on it..."/>
     </div>
   );
 }
