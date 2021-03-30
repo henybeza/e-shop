@@ -13,7 +13,7 @@ function App() {
       <Body />    
       <MyButton handleClick= {increamentCounter} name="Add to Cart" />
       <Display myCounter={counter}/>
-      <YourButton name="This is my personal E-Shop project and I am working on it..."/>
+      <YourButton name="TOTAL PRICE"/>
     </div>
   );
 }
