@@ -6,9 +6,8 @@ export default function Body() {
     return (
         <div style={divStyle}>
             <Item />
-            <Item />
-            <Item />
-            <Item />
+        
+            
         </div>
     )
 }

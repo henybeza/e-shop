@@ -11,9 +11,11 @@ function App() {
     <div className="App">
       <Header />
       <Body />    
+
       <MyButton handleClick= {increamentCounter} name="Add to Cart" />
       <Display myCounter={counter}/>
       <YourButton name="TOTAL PRICE"/>
+      
     </div>
   );
 }
